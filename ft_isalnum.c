@@ -1,23 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-26 03:32:37 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-26 03:32:37 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-04-26 02:46:04 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-04-26 02:46:04 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
-
-#include <unistd.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stddef.h>
-
-int	ft_strlen(const char *s);
-
-#endif
+int	isalnum(int c)
+{
+	if (c <= '0' && c >= '9' || c <= 'A' && c >= 'Z' || c <= 'a' && c >= 'z')
+		return (1);
+	else
+		return (0);
+}

@@ -1,23 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-26 03:32:37 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-26 03:32:37 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-04-26 04:52:14 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-04-26 04:52:14 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include "libft.h"
 
-#ifndef LIBFT_H
-# define LIBFT_H
+void	*memset(void *s, int c, size_t n)
+{
+	int	i;
 
-#include <unistd.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stddef.h>
+	s = (char *)s;
 
-int	ft_strlen(const char *s);
-
-#endif
+	i = 0;
+	if (s[i] <= n)
+	{
+		i++;
+	}
+	return (s);
+}
