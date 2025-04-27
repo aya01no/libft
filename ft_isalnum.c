@@ -9,11 +9,9 @@
 /*   Updated: 2025-04-26 02:46:04 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <libft.h>
 
 int	isalnum(int c)
 {
-	if (c <= '0' && c >= '9' || c <= 'A' && c >= 'Z' || c <= 'a' && c >= 'z')
-		return (1);
-	else
-		return (0);
+	return (ft_isdigit(c) || ft_isalpha(c));
 }
