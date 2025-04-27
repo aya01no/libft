@@ -13,13 +13,14 @@
 
 void	*memset(void *s, int c, size_t n)
 {
-	int	i;
+	size_t		i;
+	char	*m;
 
-	s = (char *)s;
-
+	m = (char *)s;
 	i = 0;
-	if (s[i] <= n)
+	while (i < n)
 	{
+		m[i] = (unsigned char)c;
 		i++;
 	}
 	return (s);
