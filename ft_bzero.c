@@ -21,7 +21,7 @@ void	bzero(void *s, size_t n)
 	m = (char *)s;
 	while (i < n)
 	{
-		m[i] = '/0';
+		m[i] = 0;
 		i++;
 	}
 }
