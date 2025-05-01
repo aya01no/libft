@@ -12,9 +12,9 @@
 
 #include "libft.h"
 
-char	*strchr(const char *s, int c)
+char	*ft_strchr(const char *s, int c)
 {
-	while (*s != '\0' && *s != c)
+	while (*s && *s != c)
 	{
 		s++;
 	}

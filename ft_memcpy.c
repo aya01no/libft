@@ -9,12 +9,12 @@
 /*   Updated: 2025-04-27 07:31:06 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <libft.h>
+#include "libft.h"
 
-void	*memcpy(void *dest, const void *src, size_t n)
+void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	char	*dest_cpy;
-	char	*src_cpy;
+	unsigned char	*dest_cpy;
+	unsigned char	*src_cpy;
 
 	dest_cpy = (unsigned char *)dest;
 	src_cpy = (unsigned char *)src;

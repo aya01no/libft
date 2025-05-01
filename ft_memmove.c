@@ -1,31 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-29 06:07:58 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-29 06:07:58 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-04-27 09:33:53 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-04-27 09:33:53 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strncmp(const char *s1, const char *s2, size_t n)
+void	*ft_memmove(void *dest, void *src, size_t n)
 {
-	while (n > 0)
+	unsigned char	*temp;
+	unsigned char	*dest_cpy;
+	unsigned char	*src_cpy;
+
+	dest_cpy = (unsigned char *)dest;
+	src_cpy = (unsigned char *)src;
+	if (dest_cpy > src_cpy)
 	{
-		if (*s1 != *s2)
-		{
-			return ((*s1 - *s2));
-		}
-		else
-		{
-			s1++;
-			s2++;
-		}
-		n--;
+		int	i;
+
+		i = 0;
+		while ()
 	}
-	return (0);
+	while (n--)
+	{
+		*dest_cpy++ = *temp++;
+	}
+	return (dest);
 }

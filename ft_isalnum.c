@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include <libft.h>
 
-int	isalnum(int c)
+int	ft_isalnum(int c)
 {
 	return (ft_isdigit(c) || ft_isalpha(c));
 }
