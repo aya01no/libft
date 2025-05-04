@@ -9,6 +9,7 @@
 /*   Updated: 2025-05-04 10:38:32 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
