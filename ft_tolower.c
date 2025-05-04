@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-28 11:13:19 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-28 11:13:19 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:39:19 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:39:19 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "libft.h"
 

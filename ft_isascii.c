@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-27 07:26:15 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-27 07:26:15 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:36:39 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:36:39 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 int	ft_isascii(int c)
 {

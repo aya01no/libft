@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-27 07:31:06 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-27 07:31:06 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:37:07 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:37:07 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)

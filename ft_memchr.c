@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-29 07:39:16 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-29 07:39:16 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:36:57 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:36:57 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)

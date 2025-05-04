@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-26 02:14:27 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-26 02:14:27 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:38:16 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:38:16 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 
 size_t	ft_strlen(const char *s)
 {

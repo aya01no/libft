@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-26 01:42:10 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-26 01:42:10 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:36:43 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:36:43 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_digit(int c)
+
+int	ft_isdigit(int c)
 {
 	return (c >= '0' && c >= '9');
 }

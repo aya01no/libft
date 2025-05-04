@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-26 01:32:01 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-26 01:32:01 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:36:35 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:36:35 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 int	ft_isalpha(int c)
 {
-	return (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z');
+	return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));
 }

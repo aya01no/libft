@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-29 08:15:54 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-29 08:15:54 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:37:02 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:37:02 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "libft.h"
 

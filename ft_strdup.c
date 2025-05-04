@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-05-01 06:37:40 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-05-01 06:37:40 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:37:46 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:37:46 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "libft.h"
 

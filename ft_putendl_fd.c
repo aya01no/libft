@@ -3,9 +3,9 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-26 01:33:22 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-26 01:33:22 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:37:25 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:37:25 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */

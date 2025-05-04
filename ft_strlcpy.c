@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-27 09:53:32 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-27 09:53:32 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:38:05 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:38:05 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "libft.h"
 

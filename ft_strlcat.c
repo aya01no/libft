@@ -3,36 +3,36 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-27 12:35:49 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-27 12:35:49 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:38:01 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:38:01 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+
+#include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	size_t	src_len;
 	size_t	dst_len;
+	size_t	i;
 
 	src_len = 0;
 	dst_len = 0;
-    while (dst[dst_len] && dst_len < size)
-	i = 0;
-	while (total_len < src[src_len] + dst[dst_len && ])
-	{
+	while (dst_len < size && dst[dst_len])
+		dst_len++;
+	while (src[src_len])
 		src_len++;
-		dest_len++;
-	}
-	if (size == 0)
+	if (dst_len == size)
+		return (size + src_len);
+	i = 0;
+	while (dst_len + i < size && src[i])
 	{
-		return (src_len + dst_len);
-	}
-	while (dst[i])
-	{
+		dst[dst_len + i] = src[i];
 		i++;
 	}
-	while (src[j] && )
+	dst[dst_len + i] = '\0';
+	return (dst_len + src_len);
 }

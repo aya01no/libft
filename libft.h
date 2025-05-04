@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ayayamad <ayayamad@student.42.fr>          #+#  +:+       +#+        */
+/*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-04-26 03:32:37 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-04-26 03:32:37 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-04 10:39:30 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-04 10:39:30 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #ifndef LIBFT_H
 # define LIBFT_H
