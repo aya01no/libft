@@ -10,28 +10,45 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "libft.h"
-//setと一致するもの探し　範囲指定必要
-char	*ft_found(char set, char *str)
+
+int	set_in_s1(const char *str, char c)
 {
 	size_t	j;
 
 	j = 0;
-	while (set)
+	while (str[j])
 	{
-		if (set_found[j] == set)
+		if (str[j] == c)
 			return (1);
+		j++;
 	}
+	return (0);
 }
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t	i;
-	char	*start;
-	char	*end;
-	//一文字ずつfoundにまわす　回し続ける条件は終端まで？もしくは、
-	//
-	while (ft_found(*s1, ft_strlen(*s1)))
+	size_t	start;
+	size_t	end;
+	char	*s1_trimed;
+
+	start = 0;
+	while (s1[start] && set_in_s1(set, s1[start]))
 		start++;
+	end = ft_strlen(s1);
+	while (end > start && set_in_s1(set, (s1[end - 1])))
+		end--;
+	s1_trimed = (char *)malloc(sizeof(*s1) * ((end - start) + 1));
+	if (!s1_trimed)
+		return (NULL);
+	i = 0;
+	while (start < end)
+	{
+		s1_trimed[i] = s1[start];
+		i++;
+		start++;
+	}
+	s1_trimed[i] = '\0';
+	return (s1_trimed);
 }
