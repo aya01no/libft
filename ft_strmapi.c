@@ -5,7 +5,28 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-05-04 10:38:26 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-05-04 10:38:26 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-07 09:49:14 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-07 09:49:14 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include "libft.h"
+
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
+{
+	size_t	i;
+	size_t	s_len;
+	char	*str;
+
+	s_len = ft_strlen(s) + 1;
+	str = (char *)malloc(sizeof(char) * s_len);
+	if (!str)
+		return (NULL);
+	i = 0;
+	str[s_len - 1] = '\0';
+	while (i < s_len - 1)
+	{
+		str[i] = (*f)(i, s[i]);
+		i++;
+	}
+	return (str);
+}
