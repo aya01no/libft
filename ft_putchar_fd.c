@@ -5,7 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ayayamad <ayayamad@student.42tokyo.jp>     #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-05-04 10:37:20 by ayayamad          #+#    #+#             */
-/*   Updated: 2025-05-04 10:37:20 by ayayamad         ###   ########.fr       */
+/*   Created: 2025-05-07 10:52:52 by ayayamad          #+#    #+#             */
+/*   Updated: 2025-05-07 10:52:52 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
+
+void	ft_putchar_fd(char c, int fd)
+{
+	write(fd, &c, 1);
+}
