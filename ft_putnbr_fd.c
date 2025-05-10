@@ -35,6 +35,6 @@ void	ft_putnbr_fd(int n, int fd)
 		str[i++] = '0' + (lln % 10);
 		lln /= 10;
 	}
-	while (i-- >= 0)
+	while (i-- > 0)
 		write(fd, &str[i], 1);
 }
