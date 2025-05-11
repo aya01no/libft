@@ -27,7 +27,7 @@ char	*ft_strrchr(const char *s, int c)
 		}
 		s++;
 	}
-	if (uc == '\0')
+	if (!uc)
 	{
 		found = (char *)s;
 	}
