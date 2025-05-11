@@ -44,7 +44,7 @@ char	*ft_itoa(int n)
 	while (len -- > negative)
 	{
 		itoa[len] = '0' + (num % 10);
-		num /= 10;
+		num = num / 10;
 	}
 	if (negative)
 		itoa[0] = '-';

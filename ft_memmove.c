@@ -28,8 +28,8 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	else
 	{
-		d += n;
-		s += n;
+		d = d + n;
+		s = s + n;
 		while (n--)
 		{
 			*--d = *--s;

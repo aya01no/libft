@@ -33,7 +33,7 @@ void	ft_putnbr_fd(int n, int fd)
 	while (lln > 0)
 	{
 		str[i++] = '0' + (lln % 10);
-		lln /= 10;
+		lln = lln / 10;
 	}
 	while (i-- > 0)
 		write(fd, &str[i], 1);
