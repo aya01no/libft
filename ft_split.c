@@ -97,7 +97,7 @@ char	**ft_split(char const *s, char c)
 		{
 			return (ft_free_splits(result, i), NULL);
 		}
-		s += ft_word_len(s, c);
+		s = s + ft_word_len(s, c);
 		i++;
 	}
 	result[count] = NULL;
