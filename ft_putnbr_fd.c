@@ -14,7 +14,7 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	char		str[13];
+	char		str[11];
 	int			i;
 	long long	lln;
 
