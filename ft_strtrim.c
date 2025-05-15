@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-int	set_in_s1(const char *str, char c)
+static int	set_in_s1(const char *str, char c)
 {
 	size_t	j;
 
