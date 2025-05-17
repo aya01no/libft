@@ -9,6 +9,7 @@
 /*   Updated: 2025-05-04 10:36:13 by ayayamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include "libft.h"
 
 int	ft_atoi(const char *nptr)
 {
@@ -22,9 +23,8 @@ int	ft_atoi(const char *nptr)
 	sign = 1;
 	if (nptr[i] == '-' || nptr[i] == '+')
 	{
-		if (nptr[i] == '-')
+		if (nptr[i++] == '-')
 			sign = -1;
-		i++;
 	}
 	result = 0;
 	while (nptr[i] && nptr[i] >= '0' && nptr[i] <= '9')
