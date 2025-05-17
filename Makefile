@@ -40,6 +40,7 @@ ifeq ($(filter bonus,$(MAKECMDGOALS)),bonus)
 endif
 
 OBJS := $(SRCS:.c=.o)
+BONUS_OBJS := $(BONUS_SRCS:.c=.o)
 
 .PHONY: all bonus clean fclean re
 
@@ -48,13 +49,14 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $(OBJS)
 
-bonus: all
+bonus: $(OBJS) $(BONUS_OBJS)
+	$(AR) $(NAME) $(BONUS_OBJS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	$(RM) $(OBJS)
+	$(RM) $(OBJS) $(BONUS_OBJS)
 
 fclean: clean
 	$(RM) $(NAME)
