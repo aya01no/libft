@@ -49,8 +49,7 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $(OBJS)
 
-bonus: fclean
-	$(MAKE) all
+bonus: $(BONUS_OBJS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -62,4 +61,3 @@ fclean: clean
 	$(RM) $(NAME)
 
 re: fclean all
-	$(MAKE) all
