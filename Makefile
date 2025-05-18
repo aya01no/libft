@@ -34,25 +34,18 @@ BONUS_SRCS := \
 	ft_lstadd_back_bonus.c ft_lstdelone_bonus.c ft_lstclear_bonus.c ft_lstiter_bonus.c \
 	ft_lstmap_bonus.c
 
-ifeq ($(filter bonus,$(MAKECMDGOALS)),bonus)
-	CFLAGS += -DBONUS
-	SRCS += $(BONUS_SRCS)
-endif
-
 OBJS := $(SRCS:.c=.o)
 BONUS_OBJS := $(BONUS_SRCS:.c=.o)
 
-.PHONY: all bonus clean fclean re
-
-all: $(NAME)
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $(OBJS)
 
-bonus: $(BONUS_OBJS)
+all: $(NAME)
 
-%.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
+bonus: $(NAME) $(BONUS_OBJS)
 
 clean:
 	$(RM) $(OBJS) $(BONUS_OBJS)
@@ -61,3 +54,5 @@ fclean: clean
 	$(RM) $(NAME)
 
 re: fclean all
+
+.PHONY: all bonus clean fclean re
